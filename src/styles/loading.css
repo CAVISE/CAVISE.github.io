@@ -1,0 +1,19 @@
+.loading {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: opacity 0.45s ease, visibility 0.45s ease;
+}
+
+.loading.hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
