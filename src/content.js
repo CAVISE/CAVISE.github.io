@@ -34,7 +34,7 @@ export const simulationSteps = [
 export const simulationLinks = [
   { label: 'GitHub', value: 'github.com/CAVISE', href: 'https://github.com/CAVISE' },
   { label: 'Documentation', value: 'Guides, architecture & setup', href: 'https://cavise.github.io/Documentation/' },
-  { label: 'Contacts', value: 'cavise@hse.ru', href: 'mailto:cavise@hse.ru' }
+  { label: 'Contacts', value: 'vg.stepanyants@hse.ru', href: 'mailto:vg.stepanyants@hse.ru' }
 ];
 
 export const research = {
